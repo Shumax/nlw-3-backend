@@ -4,6 +4,9 @@
 	"migrations": [
 		"./src/dao/migrations/*.ts"
 	],
+	"entities": [
+		"./src/models/*.ts"
+	],
 	"cli": {
 		"migrationsDir": "./src/dao/migrations"
 	}
